@@ -1,0 +1,10 @@
+Rule of TDD
+1. ไม่เขียน code ถ้าไม่มี test cover
+2. ไม่เขียน code เกินกว่าที่ test ต้องการ
+
+TDD Steps
+1. Test Fails
+2. Test Pass
+3. Refector <- refactoring
+
+CleanCode

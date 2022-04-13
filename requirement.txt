@@ -1,0 +1,36 @@
+input หาร 3 ลงตัว ให้ func return ว่า "Fizz"
+input หาร 5 ลงตัว ให้ func return ว่า "Buzz"
+input หาร 3 และ 5 ลงตัว ให้ func return ว่า "FizzBuzz"
+**input หาร 3 และ 5 ไม่ลงตัว ให้ func return เลขเดิมออกมา
+
+input -> | process | -> output
+ไม่เคลียร์ -> | ไม่รู้ | -> ไม่เคลียร์ <- Bugs
+
+concrete example (data)
+
+ตัวอย่าง data -> (Apple to Apple, Apple to something else)
+
+<<Truth table>>
+input           output
+1               1
+2               2
+3               Fizz
+4               4
+5               Buzz
+6               Fizz
+7               7
+8               8
+9               Fizz
+10              Buzz
+11              11
+12              Fizz
+13              13
+14              14
+15              FizzBuzz
+30              FizzBuzz
+
+Test เครื่องคิดเลข (test ที่ขอบ - edge)
+[   input   ]   [   operand ]   [   input   ] = [   output  ]
+    1               +               1               2
+    int             +               int             int<>
+    
