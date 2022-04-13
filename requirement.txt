@@ -29,8 +29,9 @@ input           output
 15              FizzBuzz
 30              FizzBuzz
 
+
+EX.
 Test เครื่องคิดเลข (test ที่ขอบ - edge)
 [   input   ]   [   operand ]   [   input   ] = [   output  ]
     1               +               1               2
     int             +               int             int<>
-    
